@@ -5,7 +5,6 @@ It copies what exists in zope.security.testing.
     
 from zope.interface import implementer
 from zope.security.interfaces import IParticipation, IPrincipal
-from zope.security.interfaces import 
 
 
 @implementer(IParticipation)

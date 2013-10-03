@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from .component import Participation, Principal
+from .components import Participation, Principal
 from .context import Interaction
 from zope.security.interfaces import IParticipation
 from zope.security.management import getInteraction, endInteraction

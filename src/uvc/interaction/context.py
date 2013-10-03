@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from .components import Participation
 from zope.security.management import newInteraction, endInteraction
 from zope.security.management import queryInteraction
 from zope.security.interfaces import IPrincipal
